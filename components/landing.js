@@ -3,7 +3,7 @@ import React from 'react';
 function Landing(){
 return(
   <>
-    <h1>Hours</h1>
+    <h2>Hours</h2>
       <ul>
         <li>Monday - Saturday</li>
         <li>11:00am - 7:00pm</li>
