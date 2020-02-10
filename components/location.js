@@ -2,8 +2,8 @@ import React from 'react';
 
 function Location(){
   return(
-    <>
-      <div>
+    <section id="location-container">
+      <div className="text-container">
         <div>
           <h2>Location</h2>
           <p> 302 4th Ave. E <br/> Olympia, Washington 98501 </p>
@@ -14,10 +14,10 @@ function Location(){
           <p> (360) 705 - 3772</p>
         </div>
       </div>
-      <div>
+      <div className="image-container">
         <img src="https://via.placeholder.com/700x900" alt="placeholder image" />
       </div> 
-    </>
+    </section>
   )
 }
 

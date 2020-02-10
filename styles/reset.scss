@@ -1,16 +1,4 @@
-/*-------------------------------------------------------------
-░░░░░  ***  Reset CSS  ***  ░░░░░░  
---------------------------------------------------------------*/
-
-const ResetCSS = `
-        /* http://meyerweb.com/eric/tools/css/reset/ 
-           v2.0 | 20110126
-           License: none (public domain)
-
-           Modified: Pretend Studio
-        */
-
-        html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
         a, abbr, acronym, address, big, cite, code,
         del, dfn, em, img, ins, kbd, q, s, samp,
@@ -93,7 +81,3 @@ const ResetCSS = `
         *, html, body {
             box-sizing: border-box;
         }
-        
-`
-
-export default ResetCSS;

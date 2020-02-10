@@ -1,0 +1,11 @@
+#location-container{
+  display: flex;
+  background-color: $white;
+  .text-container{
+    width: 50vw;
+    h2{
+      color: $red;
+      font-size: $type_2;
+    }
+  }
+}

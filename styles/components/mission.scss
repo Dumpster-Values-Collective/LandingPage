@@ -1,0 +1,15 @@
+#mission-container{
+  display: flex;
+  .image-container{
+    width: 50vw;
+
+  }
+  .text-container{
+    width: 50vw;
+    background-color: $mint;
+  }
+  h2{
+    color: $pink;
+    font-size: $type_1;
+  }
+}
