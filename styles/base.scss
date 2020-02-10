@@ -1,0 +1,26 @@
+$white :  #fffbf6;
+$pink : #f7ae9f;
+$orangesicle : #fbbe86;
+$grey : #bcafa6;
+$mint : #D8E9C2;
+$teal : #A2D6C6;
+$black : #27201F;
+$red : #A71010;
+// *** Typography *** \\
+$type_1 : calc(48px + (78 - 26) * ((100vw - 368px) / 1500));
+$line_1: calc(48px + (78 - 26) * ((100vw - 368px) / 1500));
+$type_2: calc(36px + (40 - 26) * ((100vw - 368px) / 1500));
+$line_2: calc((36px + (40 - 26) * ((100vw - 368px) / 1500))*1.2);
+$type_3: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+$line_3: calc((20px + (24 - 16) * ((100vw - 368px) / 1500))*1.4);
+$line_4: calc((18px + (20 - 16) * ((100vw - 368px) / 1500))*1.4);
+$type_5: calc(16px + (16 - 14) * ((100vw - 368px) / 1500));
+$line_5: calc((16px + (16 - 14) * ((100vw - 368px) / 1500))*1.4);
+
+
+// *** Units *** \\
+$xl_unit: 12rem;
+$l_unit: 6rem;
+$m_unit: 4rem;
+$s_unit: 2.4rem;
+$xs_unit: 1rem;

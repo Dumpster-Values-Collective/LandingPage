@@ -1,8 +1,6 @@
 {
   "name": "LandingPage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -20,9 +18,16 @@
   },
   "homepage": "https://github.com/Dumpster-Values-Collective/LandingPage#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.2.1",
+    "next-fonts": "^1.0.3",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
   }
 }
