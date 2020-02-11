@@ -1,3 +1,4 @@
+@import url(./fonts.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -88,7 +89,8 @@ select {
   background-color: #f7ae9f; }
   #landing-container h2 {
     color: #D8E9C2;
-    font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500)); }
+    font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500));
+    font-family: 'Grouch'; }
 
 #sell-container {
   background-color: #fffbf6;
