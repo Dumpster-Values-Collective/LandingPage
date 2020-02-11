@@ -1,15 +1,15 @@
 @font-face{
   font-family: 'Grouch';
-  src: url('/static/fonts/Grouch.eot')format('embedded-opentype'),
-       url('/static/fonts/Grouch.svg')format('svg'),
-       url('./static/fonts/Grouch.ttf')format('truetype'),
-       url('./static/fonts/Grouch.woff')format('woff'),
+  src: url('../fonts//Grouch.eot')format('embedded-opentype'),
+       url('../fonts/Grouch.svg')format('svg'),
+       url('../fonts/Grouch.ttf')format('truetype'),
+       url('../fonts/Grouch.woff')format('woff'),
 }
 
 @font-face{
   font-family: 'GTSpectra';
-  src: url('/static/fonts/GTSpectra.eot')format('embedded-opentype'),
-       url('/static/fonts/GTSpectra.svg')format('svg'),
-       url('./static/fonts/GTSpectra.ttf')format('truetype'),
-       url('./static/fonts/GTSpectra.woff')format('woff'),
+  src: url('../fonts/GTSpectra.eot')format('embedded-opentype'),
+       url('../fonts/GTSpectra.svg')format('svg'),
+       url('../fonts/GTSpectra.ttf')format('truetype'),
+       url('../fonts/GTSpectra.woff')format('woff'),
 }
