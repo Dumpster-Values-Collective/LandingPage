@@ -4,5 +4,13 @@
   h2{
     color: $orangesicle;
     font-size: $type_2;
+    font-family: 'Grouch';
+  }
+  p{
+    font-size: $type_3;
+    line-height: $line_3;
+    color: $black;
+    font-family: 'GTSpectra';
+    margin: 2em;
   }
 }

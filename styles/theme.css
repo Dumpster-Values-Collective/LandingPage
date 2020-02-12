@@ -1,4 +1,3 @@
-@import url(./fonts.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -84,33 +83,76 @@ select {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: 'GTSpectra';
+  src: url("/fonts/GTSpectra.woff") format("woff"), url("/fonts/GTSpectra.eot") format("embedded-opentype"), url("/fonts/GTSpectra.svg") format("svg"), url("/fonts/GTSpectra.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Grouch';
+  src: url("/fonts/Grouch.woff") format("woff"), url("/fonts/Grouch.eot") format("embedded-opentype"), url("/fonts/Grouch.ttf") format("truetype"), url("/fonts/Grouch.svg") format("svg"); }
+
 #landing-container {
   height: 100vh;
-  background-color: #f7ae9f; }
+  background-color: #f7ae9f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
   #landing-container h2 {
     color: #D8E9C2;
     font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500));
-    font-family: 'Grouch'; }
+    color: #D8E9C2;
+    font-family: 'Grouch';
+    margin-left: 5%; }
+  #landing-container ul:first-of-type {
+    margin: 2em 0em 1em 5%; }
+  #landing-container ul:last-of-type {
+    margin: 2em 0em 5em 5%; }
+  #landing-container ul li {
+    font-family: 'GTSpectra';
+    font-size: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+    line-height: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+    color: #27201F; }
 
 #sell-container {
   background-color: #fffbf6;
   height: 100vh; }
   #sell-container h2 {
     color: #fbbe86;
-    font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500)); }
+    font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500));
+    font-family: 'Grouch'; }
+  #sell-container p {
+    font-size: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+    line-height: calc((20px + (24 - 16) * ((100vw - 368px) / 1500))*1.4);
+    color: #27201F;
+    font-family: 'GTSpectra';
+    margin: 2em; }
 
 #mission-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  background-color: #D8E9C2; }
   #mission-container .image-container {
     width: 50vw; }
   #mission-container .text-container {
-    width: 50vw;
-    background-color: #D8E9C2; }
+    width: 50vw; }
   #mission-container h2 {
     color: #f7ae9f;
-    font-size: calc(48px + (78 - 26) * ((100vw - 368px) / 1500)); }
+    font-size: calc(48px + (78 - 26) * ((100vw - 368px) / 1500));
+    font-family: 'Grouch';
+    color: #27201F; }
+  #mission-container p {
+    font-family: 'GTSpectra';
+    font-size: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+    line-height: calc((20px + (24 - 16) * ((100vw - 368px) / 1500))*1.4);
+    color: #27201F; }
 
 #location-container {
   display: -webkit-box;
@@ -121,11 +163,18 @@ select {
     width: 50vw; }
     #location-container .text-container h2 {
       color: #A71010;
-      font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500)); }
+      font-size: calc(36px + (40 - 26) * ((100vw - 368px) / 1500));
+      font-family: 'Grouch'; }
+    #location-container .text-container p {
+      font-family: 'GTSpectra';
+      font-size: calc(20px + (24 - 16) * ((100vw - 368px) / 1500));
+      line-height: calc((20px + (24 - 16) * ((100vw - 368px) / 1500))*1.4);
+      color: #27201F; }
 
 #comingsoon-container {
   background-color: #bcafa6;
   height: 100vh; }
   #comingsoon-container h2 {
     font-size: calc(48px + (78 - 26) * ((100vw - 368px) / 1500));
-    font-family: 'Grouch'; }
+    font-family: 'Grouch';
+    color: #27201F; }

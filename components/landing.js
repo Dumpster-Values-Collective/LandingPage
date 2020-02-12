@@ -9,12 +9,12 @@ return(
 
         <ul>
           <li>Monday - Saturday</li>
-          <li>11:00am - 7:00pm</li>
+          <li>11am - 7pm</li>
         </ul> 
 
         <ul>
           <li>Sunday</li>
-          <li>11:00am - 6pm</li>
+          <li>11am - 6pm</li>
         </ul> 
     </ section>
 );
