@@ -1,9 +1,27 @@
 #landing-container{
   height: 100vh;
   background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
   h2{
     color: $mint;
     font-size: $type_2;
+    color: $mint;
     font-family: 'Grouch';
+    margin-left: 5%;
+  }
+  ul:first-of-type{
+    margin: 2em 0em 1em 5%;
+  }
+  ul:last-of-type{
+    margin: 2em 0em 5em 5%;
+  }
+  ul li{
+      font-family: 'GTSpectra';
+      font-size: $type_3;
+      line-height: $type_3;
+      color: $black;
   }
 }

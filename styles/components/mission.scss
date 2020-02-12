@@ -1,15 +1,23 @@
 #mission-container{
   display: flex;
+  background-color: $mint;
+
   .image-container{
     width: 50vw;
-
   }
   .text-container{
     width: 50vw;
-    background-color: $mint;
   }
   h2{
     color: $pink;
     font-size: $type_1;
+    font-family: 'Grouch';
+    color: $black;
   }
-}
+  p{
+    font-family: 'GTSpectra';
+    font-size: $type_3;
+    line-height: $line_3;
+    color: $black;
+  }
+} 
